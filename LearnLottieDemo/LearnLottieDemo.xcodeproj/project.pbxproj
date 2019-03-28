@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		124435D10FA1F3AF5B52611B /* Pods_LearnLottieDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2367E2298924AC973CE8E18E /* Pods_LearnLottieDemo.framework */; };
+		38CACCDB589ACC930E583910 /* Pods_LearnLottieDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5249B0CB151B1B9AE2D7B5ED /* Pods_LearnLottieDemoTests.framework */; };
+		3B97BB3644154E66FCFD782F /* Pods_LearnLottieDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 316261CF71A5374BEAA68035 /* Pods_LearnLottieDemoUITests.framework */; };
+		D05881E721BE03AB00425F7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D05881E621BE03AB00425F7B /* AppDelegate.m */; };
+		D05881EA21BE03AB00425F7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05881E921BE03AB00425F7B /* ViewController.m */; };
+		D05881ED21BE03AB00425F7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05881EB21BE03AB00425F7B /* Main.storyboard */; };
+		D05881EF21BE03AD00425F7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05881EE21BE03AD00425F7B /* Assets.xcassets */; };
+		D05881F221BE03AD00425F7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05881F021BE03AD00425F7B /* LaunchScreen.storyboard */; };
+		D05881F521BE03AD00425F7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D05881F421BE03AD00425F7B /* main.m */; };
+		D05881FF21BE03AE00425F7B /* LearnLottieDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D05881FE21BE03AE00425F7B /* LearnLottieDemoTests.m */; };
+		D058820A21BE03AE00425F7B /* LearnLottieDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D058820921BE03AE00425F7B /* LearnLottieDemoUITests.m */; };
+		D058821921BE4ACC00425F7B /* preloader.json in Resources */ = {isa = PBXBuildFile; fileRef = D058821821BE4ACC00425F7B /* preloader.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D05881FB21BE03AD00425F7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05881DA21BE03AB00425F7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05881E121BE03AB00425F7B;
+			remoteInfo = LearnLottieDemo;
+		};
+		D058820621BE03AE00425F7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05881DA21BE03AB00425F7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05881E121BE03AB00425F7B;
+			remoteInfo = LearnLottieDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2367E2298924AC973CE8E18E /* Pods_LearnLottieDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnLottieDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		316261CF71A5374BEAA68035 /* Pods_LearnLottieDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnLottieDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7A5C050CA52FAB6AF6986D /* Pods-LearnLottieDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnLottieDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnLottieDemoTests/Pods-LearnLottieDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		41667A784C9D2B7311A10F67 /* Pods-LearnLottieDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnLottieDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnLottieDemo/Pods-LearnLottieDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5249B0CB151B1B9AE2D7B5ED /* Pods_LearnLottieDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnLottieDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93101B5E8A74E81628BBF0DA /* Pods-LearnLottieDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnLottieDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnLottieDemoUITests/Pods-LearnLottieDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C39BB588E09D4E7D9E9CF0E8 /* Pods-LearnLottieDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnLottieDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnLottieDemoTests/Pods-LearnLottieDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D05881E221BE03AB00425F7B /* LearnLottieDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnLottieDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05881E521BE03AB00425F7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D05881E621BE03AB00425F7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D05881E821BE03AB00425F7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D05881E921BE03AB00425F7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D05881EC21BE03AB00425F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D05881EE21BE03AD00425F7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D05881F121BE03AD00425F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D05881F321BE03AD00425F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05881F421BE03AD00425F7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D05881FA21BE03AD00425F7B /* LearnLottieDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnLottieDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05881FE21BE03AE00425F7B /* LearnLottieDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnLottieDemoTests.m; sourceTree = "<group>"; };
+		D058820021BE03AE00425F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D058820521BE03AE00425F7B /* LearnLottieDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnLottieDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D058820921BE03AE00425F7B /* LearnLottieDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnLottieDemoUITests.m; sourceTree = "<group>"; };
+		D058820B21BE03AE00425F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D058821821BE4ACC00425F7B /* preloader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = preloader.json; sourceTree = "<group>"; };
+		D4C24011A85A85509CA3F15F /* Pods-LearnLottieDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnLottieDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnLottieDemo/Pods-LearnLottieDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DA73A39E2A441C83BAEAB8ED /* Pods-LearnLottieDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnLottieDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnLottieDemoUITests/Pods-LearnLottieDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D05881DF21BE03AB00425F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124435D10FA1F3AF5B52611B /* Pods_LearnLottieDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05881F721BE03AD00425F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CACCDB589ACC930E583910 /* Pods_LearnLottieDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D058820221BE03AE00425F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B97BB3644154E66FCFD782F /* Pods_LearnLottieDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96F2971C58C5A1ADFF01AEED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41667A784C9D2B7311A10F67 /* Pods-LearnLottieDemo.debug.xcconfig */,
+				D4C24011A85A85509CA3F15F /* Pods-LearnLottieDemo.release.xcconfig */,
+				C39BB588E09D4E7D9E9CF0E8 /* Pods-LearnLottieDemoTests.debug.xcconfig */,
+				3D7A5C050CA52FAB6AF6986D /* Pods-LearnLottieDemoTests.release.xcconfig */,
+				93101B5E8A74E81628BBF0DA /* Pods-LearnLottieDemoUITests.debug.xcconfig */,
+				DA73A39E2A441C83BAEAB8ED /* Pods-LearnLottieDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C812450EE55D3FE3C7615B36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2367E2298924AC973CE8E18E /* Pods_LearnLottieDemo.framework */,
+				5249B0CB151B1B9AE2D7B5ED /* Pods_LearnLottieDemoTests.framework */,
+				316261CF71A5374BEAA68035 /* Pods_LearnLottieDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D05881D921BE03AB00425F7B = {
+			isa = PBXGroup;
+			children = (
+				D05881E421BE03AB00425F7B /* LearnLottieDemo */,
+				D05881FD21BE03AE00425F7B /* LearnLottieDemoTests */,
+				D058820821BE03AE00425F7B /* LearnLottieDemoUITests */,
+				D05881E321BE03AB00425F7B /* Products */,
+				96F2971C58C5A1ADFF01AEED /* Pods */,
+				C812450EE55D3FE3C7615B36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D05881E321BE03AB00425F7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D05881E221BE03AB00425F7B /* LearnLottieDemo.app */,
+				D05881FA21BE03AD00425F7B /* LearnLottieDemoTests.xctest */,
+				D058820521BE03AE00425F7B /* LearnLottieDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D05881E421BE03AB00425F7B /* LearnLottieDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D05881E521BE03AB00425F7B /* AppDelegate.h */,
+				D05881E621BE03AB00425F7B /* AppDelegate.m */,
+				D05881E821BE03AB00425F7B /* ViewController.h */,
+				D05881E921BE03AB00425F7B /* ViewController.m */,
+				D05881EB21BE03AB00425F7B /* Main.storyboard */,
+				D05881EE21BE03AD00425F7B /* Assets.xcassets */,
+				D05881F021BE03AD00425F7B /* LaunchScreen.storyboard */,
+				D05881F321BE03AD00425F7B /* Info.plist */,
+				D05881F421BE03AD00425F7B /* main.m */,
+				D058821821BE4ACC00425F7B /* preloader.json */,
+			);
+			path = LearnLottieDemo;
+			sourceTree = "<group>";
+		};
+		D05881FD21BE03AE00425F7B /* LearnLottieDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D05881FE21BE03AE00425F7B /* LearnLottieDemoTests.m */,
+				D058820021BE03AE00425F7B /* Info.plist */,
+			);
+			path = LearnLottieDemoTests;
+			sourceTree = "<group>";
+		};
+		D058820821BE03AE00425F7B /* LearnLottieDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D058820921BE03AE00425F7B /* LearnLottieDemoUITests.m */,
+				D058820B21BE03AE00425F7B /* Info.plist */,
+			);
+			path = LearnLottieDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D05881E121BE03AB00425F7B /* LearnLottieDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D058820E21BE03AE00425F7B /* Build configuration list for PBXNativeTarget "LearnLottieDemo" */;
+			buildPhases = (
+				3992E14D31CD24113FC63F78 /* [CP] Check Pods Manifest.lock */,
+				D05881DE21BE03AB00425F7B /* Sources */,
+				D05881DF21BE03AB00425F7B /* Frameworks */,
+				D05881E021BE03AB00425F7B /* Resources */,
+				1C3B9592F2C7D5C2783D516C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearnLottieDemo;
+			productName = LearnLottieDemo;
+			productReference = D05881E221BE03AB00425F7B /* LearnLottieDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D05881F921BE03AD00425F7B /* LearnLottieDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D058821121BE03AE00425F7B /* Build configuration list for PBXNativeTarget "LearnLottieDemoTests" */;
+			buildPhases = (
+				E8D4EFE393D8B40E699478E4 /* [CP] Check Pods Manifest.lock */,
+				D05881F621BE03AD00425F7B /* Sources */,
+				D05881F721BE03AD00425F7B /* Frameworks */,
+				D05881F821BE03AD00425F7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05881FC21BE03AD00425F7B /* PBXTargetDependency */,
+			);
+			name = LearnLottieDemoTests;
+			productName = LearnLottieDemoTests;
+			productReference = D05881FA21BE03AD00425F7B /* LearnLottieDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D058820421BE03AE00425F7B /* LearnLottieDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D058821421BE03AE00425F7B /* Build configuration list for PBXNativeTarget "LearnLottieDemoUITests" */;
+			buildPhases = (
+				E03782DF2F14D15D07ED5166 /* [CP] Check Pods Manifest.lock */,
+				D058820121BE03AE00425F7B /* Sources */,
+				D058820221BE03AE00425F7B /* Frameworks */,
+				D058820321BE03AE00425F7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D058820721BE03AE00425F7B /* PBXTargetDependency */,
+			);
+			name = LearnLottieDemoUITests;
+			productName = LearnLottieDemoUITests;
+			productReference = D058820521BE03AE00425F7B /* LearnLottieDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D05881DA21BE03AB00425F7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = wenbo;
+				TargetAttributes = {
+					D05881E121BE03AB00425F7B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D05881F921BE03AD00425F7B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D05881E121BE03AB00425F7B;
+					};
+					D058820421BE03AE00425F7B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D05881E121BE03AB00425F7B;
+					};
+				};
+			};
+			buildConfigurationList = D05881DD21BE03AB00425F7B /* Build configuration list for PBXProject "LearnLottieDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D05881D921BE03AB00425F7B;
+			productRefGroup = D05881E321BE03AB00425F7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D05881E121BE03AB00425F7B /* LearnLottieDemo */,
+				D05881F921BE03AD00425F7B /* LearnLottieDemoTests */,
+				D058820421BE03AE00425F7B /* LearnLottieDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D05881E021BE03AB00425F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D058821921BE4ACC00425F7B /* preloader.json in Resources */,
+				D05881F221BE03AD00425F7B /* LaunchScreen.storyboard in Resources */,
+				D05881EF21BE03AD00425F7B /* Assets.xcassets in Resources */,
+				D05881ED21BE03AB00425F7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05881F821BE03AD00425F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D058820321BE03AE00425F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C3B9592F2C7D5C2783D516C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LearnLottieDemo/Pods-LearnLottieDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnLottieDemo/Pods-LearnLottieDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3992E14D31CD24113FC63F78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnLottieDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E03782DF2F14D15D07ED5166 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnLottieDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8D4EFE393D8B40E699478E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnLottieDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D05881DE21BE03AB00425F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05881EA21BE03AB00425F7B /* ViewController.m in Sources */,
+				D05881F521BE03AD00425F7B /* main.m in Sources */,
+				D05881E721BE03AB00425F7B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05881F621BE03AD00425F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05881FF21BE03AE00425F7B /* LearnLottieDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D058820121BE03AE00425F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D058820A21BE03AE00425F7B /* LearnLottieDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D05881FC21BE03AD00425F7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05881E121BE03AB00425F7B /* LearnLottieDemo */;
+			targetProxy = D05881FB21BE03AD00425F7B /* PBXContainerItemProxy */;
+		};
+		D058820721BE03AE00425F7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05881E121BE03AB00425F7B /* LearnLottieDemo */;
+			targetProxy = D058820621BE03AE00425F7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D05881EB21BE03AB00425F7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05881EC21BE03AB00425F7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D05881F021BE03AD00425F7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05881F121BE03AD00425F7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D058820C21BE03AE00425F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D058820D21BE03AE00425F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D058820F21BE03AE00425F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41667A784C9D2B7311A10F67 /* Pods-LearnLottieDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LearnLottieDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.wb.LearnLottieDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D058821021BE03AE00425F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C24011A85A85509CA3F15F /* Pods-LearnLottieDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LearnLottieDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.wb.LearnLottieDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D058821221BE03AE00425F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39BB588E09D4E7D9E9CF0E8 /* Pods-LearnLottieDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LearnLottieDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.wb.LearnLottieDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnLottieDemo.app/LearnLottieDemo";
+			};
+			name = Debug;
+		};
+		D058821321BE03AE00425F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D7A5C050CA52FAB6AF6986D /* Pods-LearnLottieDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LearnLottieDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.wb.LearnLottieDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnLottieDemo.app/LearnLottieDemo";
+			};
+			name = Release;
+		};
+		D058821521BE03AE00425F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93101B5E8A74E81628BBF0DA /* Pods-LearnLottieDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LearnLottieDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.wb.LearnLottieDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LearnLottieDemo;
+			};
+			name = Debug;
+		};
+		D058821621BE03AE00425F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA73A39E2A441C83BAEAB8ED /* Pods-LearnLottieDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LearnLottieDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.wb.LearnLottieDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LearnLottieDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D05881DD21BE03AB00425F7B /* Build configuration list for PBXProject "LearnLottieDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D058820C21BE03AE00425F7B /* Debug */,
+				D058820D21BE03AE00425F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D058820E21BE03AE00425F7B /* Build configuration list for PBXNativeTarget "LearnLottieDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D058820F21BE03AE00425F7B /* Debug */,
+				D058821021BE03AE00425F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D058821121BE03AE00425F7B /* Build configuration list for PBXNativeTarget "LearnLottieDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D058821221BE03AE00425F7B /* Debug */,
+				D058821321BE03AE00425F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D058821421BE03AE00425F7B /* Build configuration list for PBXNativeTarget "LearnLottieDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D058821521BE03AE00425F7B /* Debug */,
+				D058821621BE03AE00425F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D05881DA21BE03AB00425F7B /* Project object */;
+}
